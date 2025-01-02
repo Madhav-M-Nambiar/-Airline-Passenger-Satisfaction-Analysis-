@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset (assuming the dataset is a CSV file)
-df = pd.read_csv(r"C:\Users\m8494\Downloads\Airline Feedback.csv")
+df = pd.read_csv(r"your csv file path")
 
 # Filter data for high and low satisfaction
 high_satisfaction = df[df['Satisfaction'] > 4]
